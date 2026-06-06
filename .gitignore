@@ -1,6 +1,19 @@
+# 1. Kredensial & Rahasia
+.env
 .env*
 
+# 2. Virtual Environment 
+venv/
 .venv/
+env/
 
+# 3. Cache Bawaan Python (Otomatis terbuat, abaikan saja)
+__pycache__/
+*.pyc
+*.pyo
+
+# 4. Data & Model Machine Learning
+data/
 *.csv
 *.npy
+*.npz
