@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: spotify-smart-playlist
+    restart: always
+    ports:
+      # Port VPS (8001) diarahkan ke Port Container (8001)
+      - "8001:8001"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
