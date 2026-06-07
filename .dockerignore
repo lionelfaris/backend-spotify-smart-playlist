@@ -1,0 +1,15 @@
+# Mengabaikan virtual environment lokal
+venv/
+.venv/
+env/
+
+# Mengabaikan cache python
+__pycache__/
+*.pyc
+*.pyo
+
+# Mengabaikan folder Git
+.git/
+
+# Keamanan Ekstra: Abaikan .env agar tidak permanen masuk ke dalam Image Docker
+.env
